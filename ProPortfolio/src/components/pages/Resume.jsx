@@ -1,7 +1,17 @@
+import CV from '../../documents/Carmen_Jimenez_Resume.pdf'
 export default function Resume() {
   return (
     <div>
+    <div>
+      <a href={CV} download="Resume.pdf"
+        target= "_blank"
+        rel="noreferrer">
+<button>download Resume</button>
+        </a>
+    </div>
+
       <h1>Resume</h1>
+
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi

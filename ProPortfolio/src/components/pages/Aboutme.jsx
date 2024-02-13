@@ -1,7 +1,11 @@
+// Desc: About me page for the portfolio
 export default function Aboutme() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About Me</h1>
+      {/*add a picture of yourself on the feft side of the page using mdb-react-ui-kit*/}
+     
+      
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
