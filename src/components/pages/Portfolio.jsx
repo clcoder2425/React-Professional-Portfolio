@@ -44,7 +44,7 @@ export default function Portfolio() {
     </MDBCard>
 
     <MDBCard id = 'card'>
-      <MDBCardImage id= 'img' src='images/workscheduler.jpg'  position='top' alt='Calendar app'/>
+      <MDBCardImage id= 'img' src='images/workdayscheduler.jpg'  position='top' alt='Calendar app'/>
       <MDBCardBody>
         <MDBCardTitle>Work Scheduler</MDBCardTitle>
         <MDBCardText>
