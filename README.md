@@ -54,7 +54,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 
 ## Usage
-The link for the webpage is: https://clcoder2425.github.io/Work-Day-Scheduler/
+The link for the webpage is:https://65cd1a6ca4b3551e5d8e5579--carmenjportfolio.netlify.app/
 
 ## Skills Improved
 

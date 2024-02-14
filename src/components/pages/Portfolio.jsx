@@ -16,7 +16,7 @@ export default function Portfolio() {
       <h1>Portfolio</h1>
    <div id="image-container">   
 <MDBCard id = 'card'>
-      <MDBCardImage src='/public/images/project1.gif' position='top' alt='Project 1' />
+      <MDBCardImage src='images/project1.gif' position='top' alt='Project 1' />
       <MDBCardBody>
         <MDBCardTitle>Mars Exploration</MDBCardTitle>
         <MDBCardText>
@@ -30,7 +30,7 @@ export default function Portfolio() {
 
     </MDBCard>
     <MDBCard id = 'card'>
-      <MDBCardImage src='/public/images/quiz.gif'  position='top' alt='quiz' />
+      <MDBCardImage src='images/quiz.gif'  position='top' alt='quiz' />
       <MDBCardBody>
         <MDBCardTitle>Multiple Choice Quiz</MDBCardTitle>
         <MDBCardText>
@@ -44,7 +44,7 @@ export default function Portfolio() {
     </MDBCard>
 
     <MDBCard id = 'card'>
-      <MDBCardImage id= 'img' src='/public/images/workscheduler.jpg'  position='top' alt='Calendar app'/>
+      <MDBCardImage id= 'img' src='images/workscheduler.jpg'  position='top' alt='Calendar app'/>
       <MDBCardBody>
         <MDBCardTitle>Work Scheduler</MDBCardTitle>
         <MDBCardText>
