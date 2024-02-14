@@ -7,7 +7,7 @@ export default function Aboutme() {
     <div>
       <h1>About Me</h1>
     <img
-  src="./assets/images/profile.jpg"
+  src="./src/assets/images/profile.jpg"
   className="img-fluid rounded-circle" id='profile-pic'
   alt="Profile"
 />
