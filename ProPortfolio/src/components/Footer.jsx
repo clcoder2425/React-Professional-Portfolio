@@ -8,8 +8,8 @@ function Footer() {
   return (
 //Footer with social media links
     
-    <footer className="bg-dark text-center text-white fixed-bottom">
-      <MDBContainer>
+    <footer className="bg-purple text-center text-white fixed-bottom">
+      <MDBContainer >
         <MDBRow>
           <MDBCol>
             <MDBRow className="justify-content-center">
