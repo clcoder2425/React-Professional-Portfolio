@@ -1,22 +1,21 @@
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
+// This file is the NavTabs component. It is used to create the navigation tabs at the top of the page.
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
 
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <a
-          href="#About me"
+        <a 
+          href="#About me" 
           onClick={() => handlePageChange('About me')}
-          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+         // Check to see if the currentPage is `About me`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'About me' ? 'nav-link active' : 'nav-link'}
         >
           About me
         </a>
       </li>
       <li className="nav-item">
-        <a
+        <a 
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -26,20 +25,20 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
       <li className="nav-item">
-        <a
+        <a 
           href="#contact"
           onClick={() => handlePageChange('Contact')}
-          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
         </a>
       </li>
       <li className="nav-item">
-        <a
+        <a id ='nav-button'
           href="#resume"
           onClick={() => handlePageChange('Resume')}
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
          Resume

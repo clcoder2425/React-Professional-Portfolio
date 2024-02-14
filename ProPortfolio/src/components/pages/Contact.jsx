@@ -1,8 +1,10 @@
+//Importing React
 import React from 'react';
+//Importing MDBReactUI
 import { MDBInput, MDBCheckbox, MDBBtn, MDBTextArea} from 'mdb-react-ui-kit';
 import './style/Contact.css'
 
-
+//Implementing the Contact component
 export default function Contact() {
   return (
     <div>

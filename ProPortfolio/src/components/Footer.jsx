@@ -1,12 +1,12 @@
+//Importing React
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faGithub, faLinkedin, faTweeter } from "@fortawesome/free-solid-svg-icons";
+//Importing MDBReactUI
 import { MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 
 
 function Footer() {
   return (
-
+//Footer with social media links
     
     <footer className="bg-dark text-center text-white fixed-bottom">
       <MDBContainer>
@@ -33,7 +33,7 @@ function Footer() {
                 </a>
               </MDBCol>
             </MDBRow>
-            <p>Carmen Jimenez</p>
+            <h6>Carmen Jimenez</h6>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
@@ -43,6 +43,6 @@ function Footer() {
 
 
 
-
+//Exporting Footer
 
 export default Footer;

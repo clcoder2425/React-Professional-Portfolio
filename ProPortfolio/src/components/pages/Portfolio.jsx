@@ -1,3 +1,4 @@
+//Importing MDBReact dependencies
 import {
   MDBCard,
   MDBCardBody,
@@ -7,7 +8,7 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 import './style/Portfolio.css'
-
+//Implementing the Portfolio component
 export default function Portfolio() {
   return (
     <div>

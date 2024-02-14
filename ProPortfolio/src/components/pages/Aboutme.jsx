@@ -1,5 +1,7 @@
+//Importing React and Aboutme.css
 import React from 'react';
 import "../pages/style/Aboutme.css"
+//Implementing the Aboutme component
 export default function Aboutme() {
   return (
     <div>
