@@ -7,9 +7,7 @@ import {
   MDBCardImage,
   MDBBtn
 } from 'mdb-react-ui-kit';
-import project1 from '../assets/images/project1.gif'
-import quizImg from '../assets/images/quiz.gif'
-import scheduleImg from '../assets/images/workscheduler.jpg'
+//Importing the css file
 import './style/Portfolio.css'
 //Implementing the Portfolio component
 export default function Portfolio() {
@@ -18,7 +16,7 @@ export default function Portfolio() {
       <h1>Portfolio</h1>
    <div id="image-container">   
 <MDBCard id = 'card'>
-      <MDBCardImage src={project1} position='top' alt='Project 1' />
+      <MDBCardImage src='./public/images/project1.gif' position='top' alt='Project 1' />
       <MDBCardBody>
         <MDBCardTitle>Mars Exploration</MDBCardTitle>
         <MDBCardText>
@@ -32,7 +30,7 @@ export default function Portfolio() {
 
     </MDBCard>
     <MDBCard id = 'card'>
-      <MDBCardImage src={quizImg}  position='top' alt='quiz' />
+      <MDBCardImage src='./public/images/quiz.gif'  position='top' alt='quiz' />
       <MDBCardBody>
         <MDBCardTitle>Multiple Choice Quiz</MDBCardTitle>
         <MDBCardText>
@@ -46,7 +44,7 @@ export default function Portfolio() {
     </MDBCard>
 
     <MDBCard id = 'card'>
-      <MDBCardImage id= 'img' src={scheduleImg}  position='top' alt='Calendar app'/>
+      <MDBCardImage id= 'img' src='./public/images/workscheduler.jpg'  position='top' alt='Calendar app'/>
       <MDBCardBody>
         <MDBCardTitle>Work Scheduler</MDBCardTitle>
         <MDBCardText>

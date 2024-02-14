@@ -1,5 +1,5 @@
 //Importing React and Aboutme.css
-import imgUrl from "./src/assets/images/profile.jpg"
+// import imgUrl from "public/images/profile.jpg"
 import React from 'react';
 import "../pages/style/Aboutme.css"
 //Implementing the Aboutme component
@@ -8,7 +8,7 @@ export default function Aboutme() {
     <div>
       <h1>About Me</h1>
     <img
-  src={imgUrl}
+  src='./public/images/profile.jpg'
   className="img-fluid rounded-circle" id='profile-pic'
   alt="Profile"
 />
