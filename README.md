@@ -50,7 +50,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 
 ## Webpage Preview
-![webpage-preview](./src/assets/images/portfolio_preview.JPG)
+![webpage-preview](./public/images/portfolio_preview.JPG)
 
 
 ## Usage
