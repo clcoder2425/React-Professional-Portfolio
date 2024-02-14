@@ -1,10 +1,9 @@
-// import React from 'react';
-// import {Link} from 'react-router-dom';
-// import { MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+
+import './style/Header.css'
 
 function Header(){
     return(
-    <div>Carmen Jimenez</div>
+    <div id= 'header'>Carmen Jimenez</div>
     )
 }
 export default Header;

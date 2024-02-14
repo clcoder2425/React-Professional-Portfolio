@@ -1,5 +1,6 @@
 import React from 'react';
 import { MDBInput, MDBCheckbox, MDBBtn, MDBTextArea} from 'mdb-react-ui-kit';
+import './style/Contact.css'
 
 
 export default function Contact() {
@@ -19,7 +20,7 @@ export default function Contact() {
 
       <MDBCheckbox wrapperClass='d-flex justify-content-center' label='Send me copy' />
 
-      <MDBBtn color='primary' block className='my-4'>
+      <MDBBtn id = 'contactButton' color='primary' block className='my-4'>
         Send
       </MDBBtn>
     </form>
